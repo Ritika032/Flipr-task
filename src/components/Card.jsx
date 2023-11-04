@@ -113,7 +113,7 @@ function Card() {
       </div>
 
       <div className="btn">
-        {!showAllPrizes && data.length > 4 && (
+        {!showAllPrizes && data.length > 3 && (
           <button onClick={toggleShowAllPrizes}>Show More</button>
         )}
       </div>
