@@ -1,1 +1,2 @@
-![Screenshot (203)](https://github.com/Ritika032/Flipr-task/assets/83336686/17ea04e3-f801-4b9f-af58-0b4642c245d7)
+
+![Screenshot (203)](https://github.com/Ritika032/Flipr-task/assets/83336686/036ec0fd-5869-4e40-987f-a2f6d47a5e43)
