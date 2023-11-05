@@ -23,7 +23,7 @@ function Card() {
     fetchInfo();
   }, []);
 
-  // Get unique filter categories and years from the data
+  // Get filter categories and years from the data
   const categories = [...new Set(data.map((prize) => prize.category))];
   const years = [...new Set(data.map((prize) => prize.year))].filter(
     (year) => year >= 1900 && year <= 2018
@@ -95,8 +95,8 @@ function Card() {
         {displayedPrizes?.map((prize, index) => {
           return (
             <div key={index} className="prize">
-              <h2 style={{ color: "Purple" , paddingBottom: "25px" }}>{prize.category}</h2>
-              <p style={{ paddingBottom: "20px" }}>{prize.year}</p>
+              <h2 style={{borderRadius: "12px" ,background: "#3494e6",color: "Purple" , padding: "20px" }}>{prize.category}</h2>
+              <p style={{ padding: "15px" }}>{prize.year}</p>
               <ul >
                 {prize.laureates?.map((laureate, laureateIndex) => (
                   <li style={{ paddingBottom: "20px" }} key={laureateIndex}>
