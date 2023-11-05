@@ -57,12 +57,14 @@ button {
   align-items: center;
   padding: 60px;
   margin-top: 10px;
+ 
 }
 .prize-container :hover {
   background: linear-gradient(90deg, #3494e6, #ec6ead);
 }
 .prize {
   width: 20%;
+  background-color: #a3c5e4;
   height: 360px;
   overflow-y: auto;
   max-height: 360px;
